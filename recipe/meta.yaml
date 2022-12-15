@@ -1,5 +1,5 @@
 {% set name = "pymyami" %}
-{% set version = "2.0a4" %}
+{% set version = "2.0a5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymyami-{{ version }}.tar.gz
-  sha256: 498530f624def8ce8ef21d4a77b32ed2fce1852d4c626507b69e1d3c3552b560
+  sha256: 6b5a8512e4944a5d918b628373fb658cf0172391a4d2eeb8c4a28ccc84931835
 
 build:
   noarch: python
