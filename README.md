@@ -1,11 +1,11 @@
-About pymyami
-=============
+About pymyami-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymyami-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/PalaeoCarb/MyAMI
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymyami-feedstock/blob/main/LICENSE.txt)
 
 Summary: MyAMI specific ion interaction model for calculating stoichiometric equilibrium constants in modified seawater.
 
