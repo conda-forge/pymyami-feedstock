@@ -1,5 +1,5 @@
 {% set name = "pymyami" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymyami-{{ version }}.tar.gz
-  sha256: e5b3111cbb4fbc7bcb351472ff88c4e9a81e5ff8b9ebdd951c36e1bd0c0fb767
+  sha256: ed0470b9dc54caa1857cb517bccf353997c3b30684de064ab35a552f71d315f7
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
